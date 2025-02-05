@@ -1,18 +1,28 @@
 ### Hi there, I'm [Anish Subedi](https://anishcodeth.github.io/) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
-🚀 **Backend Developer | Machine Learning Engineer | Open Source Enthusiast**  
+🚀 **Senior Backend Developer | Machine Learning Engineer | AI Researcher**  
 📍 Pokhara, Nepal  
-💻 Passionate about **high-performance backend systems, NLP, and AI research**
+💻 **Passionate about high-performance backend systems, AI-powered applications, and solving complex engineering challenges**
 
 ---
 
-### 🎬 Animated Introduction
+### 🎬 Interactive Introduction
 
 ```html
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=F7F7F7&center=true&vCenter=true&width=500&lines=Backend+Developer;Machine+Learning+Engineer;Open+Source+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Scalable+Systems;ML+Researcher+%7C+AI+Innovator;Backend+%7C+NLP+%7C+Distributed+Systems;Transforming+Ideas+Into+Impactful+Solutions" alt="Typing SVG" />
 </p>
 ```
+
+---
+
+### 🏆 Why Hire Me?
+
+✅ **Scalable Backend Architect** - Building robust, high-performance APIs and microservices.  
+✅ **Machine Learning Expertise** - Experience in NLP, deep learning, and AI-powered automation.  
+✅ **Database & DevOps Proficiency** - PostgreSQL, MongoDB, Docker, CI/CD, and cloud services.  
+✅ **Open Source Contributor** - Actively improving tech for global developer communities.  
+✅ **Problem-Solving Mindset** - Passionate about tackling complex engineering challenges.  
 
 ---
 
@@ -43,7 +53,7 @@
 ### 🚀 Featured Projects
 
 #### 🔹 [BitTorrent Client](https://github.com/AnishCodeth/torrent-client)
-A custom-built **BitTorrent client** for downloading files using UDP tracker and TCP/IP protocol.  
+A **custom-built BitTorrent client** for downloading files using UDP tracker and TCP/IP protocol.  
 **Tech:** Python, Multi-threading, TCP/IP, UDP  
 
 #### 🔹 [Nepali Handwritten OCR](https://github.com/AnishCodeth/OCR_Neplai)
@@ -56,7 +66,7 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ---
 
-### 🎮 Fun Games
+### 🎮 Fun & Interactive Elements
 
 #### 🕹️ Play a Snake Game!
 ```html
@@ -92,5 +102,4 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ---
 
-⚡ **"Building scalable systems, one line of code at a time!"**
-
+⚡ **"Engineering the future, one line of code at a time!"**
