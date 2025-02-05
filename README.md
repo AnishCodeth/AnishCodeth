@@ -78,9 +78,9 @@ A **real-time restaurant ordering system** with order tracking and notifications
 #### 🧩 Let's Have A Game
   <div class="board">
       <div class="row">
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
+          <span class="col">1</div>
+          <span class="col">2</div>
+          <span class="col">3</div>
       </div>
       <div class="row">
           <div class="col">4</div>
