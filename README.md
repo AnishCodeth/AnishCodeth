@@ -82,14 +82,54 @@ A **real-time restaurant ordering system** with order tracking and notifications
 <table>
   <tr>
     <td>
-    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">(https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=0)
-    </td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=1">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=2">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=3">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=4">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=5">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=6">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=7">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=8">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td> 
+    <td>
+      <a href="https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=9">
+        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+      </a>
+    </td>
   </tr>
 </table>
 
