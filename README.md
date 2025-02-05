@@ -30,7 +30,7 @@
 
 **Languages:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (50%+ Contributions)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (50%+ Contributions)  
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)  
 
 **Backend & APIs:**  
@@ -73,6 +73,11 @@ A **real-time restaurant ordering system** with order tracking and notifications
   <a href="https://anishcodeth.github.io/interactive-puzzle">
     <img src="https://img.shields.io/badge/Play%20Puzzle-Click%20Here-blue?style=for-the-badge" alt="Interactive Puzzle" />
   </a>
+</p>
+
+#### 🔢 Visitor Counter
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AnishCodeth&style=flat-square&color=blue" alt="Profile Views Counter" />
 </p>
 
 ---
