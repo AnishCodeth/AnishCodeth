@@ -82,7 +82,7 @@ A **real-time restaurant ordering system** with order tracking and notifications
 <table>
   <tr>
     <td>
-    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">((https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=0))
+    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">(https://github.com/YOUR_USERNAME/tic-tac-toe/issues/new?title=0)
     </td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
   </tr>
   <tr>
