@@ -82,7 +82,7 @@ A **real-time restaurant ordering system** with order tracking and notifications
 <table>
   <tr>
     <td>
-    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp">
+    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp" height="50px" width="50px">
     </td> <td>2</td> <td>3</td>
   </tr>
   <tr>
