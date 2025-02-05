@@ -82,14 +82,14 @@ A **real-time restaurant ordering system** with order tracking and notifications
 <table>
   <tr>
     <td>
-    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp" height="50px" width="50px">
-    </td> <td>2</td> <td>3</td>
+    <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
+    </td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
   </tr>
   <tr>
-    <td>4</td> <td>5</td> <td>6</td>
+    <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
   </tr>
   <tr>
-    <td>7</td> <td>8</td> <td>9</td>
+    <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td> <td><img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px"></td>
   </tr>
 </table>
 
