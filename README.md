@@ -54,12 +54,6 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ---
 
-### 🏆 GitHub Trophies
-
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=AnishCodeth&theme=onedark&no-frame=true&column=4)
-
----
-
 ### 📫 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/anishcodeth/)  
