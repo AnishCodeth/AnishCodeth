@@ -68,14 +68,31 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ### 🎮 Fun & Interactive Elements
 
-#### 🧩 Play an Interactive Puzzle!
-
-
 #### 🔢 Visitor Counter
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AnishCodeth&style=flat-square&color=blue" alt="Profile Views Counter" />
 </p>
 
+
+
+#### 🧩 Let's Have A Game
+    <div class="board">
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+        <div class="row">
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+        </div>
+        <div class="row">
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+        </div>
+    </div>
 ---
 
 ### 📊 GitHub Stats & Activity
