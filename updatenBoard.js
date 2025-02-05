@@ -61,7 +61,7 @@ for (let i=0;i<9;i++)
     html+='<tr>'
     }
     html+=`<td>
-    <img src=${player_data[file[i].toString()[1]]} height="50px" width="50px">((https://github.com/YOUR_USERNAME/tic-tac-toe/issues/?title=${i}))
+    <img src=${player_data[file[i].toString()[1]]} height="50px" width="50px">((https://github.com/AnishCodeth/tic-tac-toe/issues/?title=${i}))
     </td>`
     if ((i+1)%3==0){
         html+='</tr>'
