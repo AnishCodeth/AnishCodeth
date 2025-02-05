@@ -6,6 +6,16 @@
 
 ---
 
+### 🎬 Animated Introduction
+
+```html
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=F7F7F7&center=true&vCenter=true&width=500&lines=Backend+Developer;Machine+Learning+Engineer;Open+Source+Enthusiast" alt="Typing SVG" />
+</p>
+```
+
+---
+
 ### 🔥 Tech Stack & Expertise
 
 **Languages:**  
@@ -46,11 +56,31 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ---
 
+### 🎮 Fun Games
+
+#### 🕹️ Play a Snake Game!
+```html
+<p align="center">
+  <img src="https://github.com/AnishCodeth/github-readme-games/raw/main/snake.svg" alt="snake game" />
+</p>
+```
+
+#### 🧩 Solve a Puzzle!
+```html
+<p align="center">
+  <a href="https://anishcodeth.github.io/puzzle-game">
+    <img src="https://img.shields.io/badge/Play%20Puzzle-Click%20Here-blue?style=for-the-badge" alt="Puzzle Game" />
+  </a>
+</p>
+```
+
+---
+
 ### 📊 GitHub Stats & Activity
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AnishCodeth&theme=tokyonight&hide_border=true)  
 ![Anish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnishCodeth&show_icons=true&theme=tokyonight&hide_border=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnishCodeth&layout=compact&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnishCodeth&layout=compact&theme=tokyonight&hide_border=true)  
 
 ---
 
@@ -63,3 +93,4 @@ A **real-time restaurant ordering system** with order tracking and notifications
 ---
 
 ⚡ **"Building scalable systems, one line of code at a time!"**
+
