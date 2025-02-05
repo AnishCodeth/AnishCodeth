@@ -73,7 +73,7 @@ return html?win:html+`<p>win by:${player_data[win.toString()]}</p>`
 //main function
 const main=async()=>{
     const issue_title=parseInt(process.env.issue_title)
-    let board_file=JSON.parse(fs.readFileSync('board.json',"utf-8"))
+    let board_file=JSON.parse(fs.readFileSync('value.json',"utf-8"))
     let readme_file=fs.readFileSync('README.md',"utf-8")
 
     const player=which_player(file) //1 or -1
@@ -93,7 +93,7 @@ const main=async()=>{
             board[x]=player_data[empty]
         }
     }
-    fs.writeFileSync('board.json',JSON.stringify({"board":board}))
+    fs.writeFileSync('value.json',JSON.stringify({"board":board}))
 }
 
 main()

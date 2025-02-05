@@ -79,59 +79,17 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 #### 🧩 Let's Have A Game
 
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+1">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+2">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+3">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+4">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+5">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+6">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+7">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+8">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td> 
-    <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+9">
-        <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
-      </a>
-    </td>
-  </tr>
-</table>
+# 🏆 Tic-Tac-Toe Game
+
+Click on a cell to play! The board updates automatically.
+
+|                                                                                                                                                 |                                                                                                                                                 |                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![1](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%201) | [![2](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%202) | [![3](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%203) |
+| [![4](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%204) | [![5](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%205) | [![6](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%206) |
+| [![7](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%207) | [![8](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%208) | [![9](https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp)](https://github.com/anish-codeth/anish-codeth/issues/new?title=Move%209) |
+
+📝 **Click on a cell to make a move.** The game updates automatically.
 
 ---
 
