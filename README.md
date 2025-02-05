@@ -8,11 +8,11 @@
 
 ### 🎬 Interactive Introduction
 
-```html
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Scalable+Systems;ML+Researcher+%7C+AI+Innovator;Backend+%7C+NLP+%7C+Distributed+Systems;Transforming+Ideas+Into+Impactful+Solutions" alt="Typing SVG" />
+  <a href="https://anishcodeth.github.io/animated-intro">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Scalable+Systems;ML+Researcher+%7C+AI+Innovator;Backend+%7C+NLP+%7C+Distributed+Systems;Transforming+Ideas+Into+Impactful+Solutions" alt="Typing SVG" />
+  </a>
 </p>
-```
 
 ---
 
@@ -30,7 +30,7 @@
 
 **Languages:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (50%+ Contributions)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)  
 
 **Backend & APIs:**  
@@ -68,21 +68,12 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 ### 🎮 Fun & Interactive Elements
 
-#### 🕹️ Play a Snake Game!
-```html
+#### 🧩 Play an Interactive Puzzle!
 <p align="center">
-  <img src="https://github.com/AnishCodeth/github-readme-games/raw/main/snake.svg" alt="snake game" />
-</p>
-```
-
-#### 🧩 Solve a Puzzle!
-```html
-<p align="center">
-  <a href="https://anishcodeth.github.io/puzzle-game">
-    <img src="https://img.shields.io/badge/Play%20Puzzle-Click%20Here-blue?style=for-the-badge" alt="Puzzle Game" />
+  <a href="https://anishcodeth.github.io/interactive-puzzle">
+    <img src="https://img.shields.io/badge/Play%20Puzzle-Click%20Here-blue?style=for-the-badge" alt="Interactive Puzzle" />
   </a>
 </p>
-```
 
 ---
 
