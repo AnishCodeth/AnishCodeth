@@ -79,8 +79,6 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 #### 🧩 Let's Have A Game
 
-### 🧩 Let's Have A Game
-
 <table>
   <tr>
     <td>
