@@ -69,11 +69,7 @@ A **real-time restaurant ordering system** with order tracking and notifications
 ### 🎮 Fun & Interactive Elements
 
 #### 🧩 Play an Interactive Puzzle!
-<p align="center">
-  <a href="https://anishcodeth.github.io/interactive-puzzle">
-    <img src="https://img.shields.io/badge/Play%20Puzzle-Click%20Here-blue?style=for-the-badge" alt="Interactive Puzzle" />
-  </a>
-</p>
+
 
 #### 🔢 Visitor Counter
 <p align="center">
