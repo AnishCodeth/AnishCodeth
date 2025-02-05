@@ -1,6 +1,6 @@
 ### Hi there, I'm [Anish Subedi](https://anishcodeth.github.io/) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
-🚀 **Senior Backend Developer | Machine Learning Engineer | AI Researcher**  
+🚀 ** Backend Developer | Machine Learning Engineer | AI Researcher**  
 📍 Pokhara, Nepal  
 💻 **Passionate about high-performance backend systems, AI-powered applications, and solving complex engineering challenges**
 
