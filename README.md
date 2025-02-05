@@ -76,23 +76,18 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 
 #### 🧩 Let's Have A Game
-  <div class="board">
-      <div class="row">
-          <span class="col">1</div>
-          <span class="col">2</div>
-          <span class="col">3</div>
-      </div>
-      <div class="row">
-          <div class="col">4</div>
-          <div class="col">5</div>
-          <div class="col">6</div>
-      </div>
-      <div class="row">
-          <div class="col">7</div>
-          <div class="col">8</div>
-          <div class="col">9</div>
-      </div>
-  </div>
+<table>
+  <tr>
+    <td>1</td> <td>2</td> <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td> <td>5</td> <td>6</td>
+  </tr>
+  <tr>
+    <td>7</td> <td>8</td> <td>9</td>
+  </tr>
+</table>
+
 ---
 
 ### 📊 GitHub Stats & Activity
