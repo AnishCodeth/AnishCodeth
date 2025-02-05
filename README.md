@@ -79,54 +79,56 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 #### 🧩 Let's Have A Game
 
+### 🧩 Let's Have A Game
+
 <table>
   <tr>
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=1">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+1">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=2">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+2">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=3">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+3">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=4">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+4">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=5">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+5">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=6">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+6">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=7">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+7">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=8">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+8">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td> 
     <td>
-      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=9">
+      <a href="https://github.com/AnishCodeth/AnishCodeth/issues/new?title=Move+9">
         <img src="https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp" height="50px" width="50px">
       </a>
     </td>
