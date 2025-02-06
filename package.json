@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "🚀 ** Backend Developer | Machine Learning Engineer | AI Researcher**   📍 Pokhara, Nepal   💻 **Passionate about high-performance backend systems, AI-powered applications, and solving complex engineering challenges**",
   "main": "updateBoard.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
