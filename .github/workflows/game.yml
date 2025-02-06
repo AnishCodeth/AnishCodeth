@@ -2,7 +2,7 @@ name: Update Tic-Tac-Toe Board
 
 on:
   issues:
-    types: [opened, "edited"]
+    types: [opened]
 
 jobs:
   update-board:
