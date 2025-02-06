@@ -2,7 +2,7 @@ import fs from 'fs';
 
 const player_data={
 "1":["player1","https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp"],
-"2":["player2","https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp"],
+"-1":["player2","https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp"],
 "0":["empty","https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp"],
 "player1":1,
 "player2":-1,
@@ -11,6 +11,7 @@ const player_data={
 
 
 const check_win=async(values)=>{
+    let sum=0
     const winPatterns = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
         [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
@@ -31,14 +32,7 @@ const check_win=async(values)=>{
     return false
 }
 
-// //to make board 
-// const makeArray=async(file)=>{
-// const board=[]
-// for (let x in file){
-// board.push(parseInt(x))
-// }
-// return board
-// }
+
 
 //which player is playing
 const which_player=async(file)=>{
@@ -60,39 +54,52 @@ for (let i=0;i<9;i++)
     if (i%3==0){
     html+='<tr>'
     }
-    html+=`<td>
-    <img src=${player_data[file[i].toString()[1]]} height="50px" width="50px">((https://github.com/AnishCodeth/tic-tac-toe/issues/?title=${i}))
+    html+=`<td>a
+    <a href=${file[i.toString()]==0?"https://github.com/anish-codeth/anish-codeth/issues/new?title="+i:"https://github.com/anish-codeth"}><img src=${player_data[file[i].toString()][1]} height="50px" width="50px"></a>
     </td>`
     if ((i+1)%3==0){
         html+='</tr>'
         }
 }
-return html?win:html+`<p>win by:${player_data[win.toString()]}</p>`
+
+if (win=='draw'){
+    return html+'<p>Draw</p>'
+}
+else if(win){
+    return html+`<p>win by:${player_data[win.toString()]}</p>`
+}
+else {
+    return html
+}
 }
 
 //main function
 const main=async()=>{
-    const issue_title=parseInt(process.env.issue_title)
+    const issue_title=parseInt(process.env.issue_title) || 2
     let board_file=JSON.parse(fs.readFileSync('value.json',"utf-8"))
     let readme_file=fs.readFileSync('README.md',"utf-8")
 
-    const player=which_player(file) //1 or -1
-
+    
     const board=board_file.board //1 or -1 or 0 format
-    board[issue_title]=player_data[player]
+    const player=await which_player(board) //1 or -1
+    console.log(player)
+    board[issue_title]=player
 
-    if (!check_win(board))
+    if (!await check_win(board))
     {
-        readme_file=readme_file.replace('<table>*</table>',create_readme(board))
-        fs.writeFileSync('README.md', readme_file);
-    }
-    else{
-        readme_file=readme_file.replace('<table>*</table>',create_readme(file,player))
-        fs.writeFileSync('README.md', readme_file);
-        for (let x of board){
-            board[x]=player_data[empty]
+        if(board.filter((x)=>x==0).length==0){
+            for (let x in board){
+                board[x]=player_data["empty"]
+            }
         }
     }
+    else{
+        for (let x in board){
+            board[x]=player_data["empty"]
+        }
+    }
+    readme_file = readme_file.replace(/<table>[\s\S]*?<\/table>/g, await create_readme(board));
+    fs.writeFileSync('README.md', readme_file);
     fs.writeFileSync('value.json',JSON.stringify({"board":board}))
 }
 
