@@ -83,27 +83,25 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 Click on a cell to play! The board updates automatically.
 
-<table>
-<tr><td>
+<table><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=0><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=1><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp height="50px" width="50px"></a>
-    </td></tr><tr><td>
+    </td></tr><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=3><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=4><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=5><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td></tr><tr><td>
+    </td></tr><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=6><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=7><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td><td>
+    </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=8><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td></tr>
-</table>
+    </td></tr></table>
 
 📝 **Click on a cell to make a move.** The game updates automatically.
 
