@@ -47,7 +47,7 @@ return sum%2==0?player_data['player1']:player_data['player2'] //first is player1
 //to create readme
 const create_readme=async(file,win=undefined)=>
 {
-    let html=""
+    let html="<table>"
 
 for (let i=0;i<9;i++)
 {
@@ -61,7 +61,7 @@ for (let i=0;i<9;i++)
         html+='</tr>'
         }
 }
-
+html+='</table>'
 if (win=='draw'){
     return html+'<p>Draw</p>'
 }
@@ -71,6 +71,7 @@ else if(win){
 else {
     return html
 }
+
 }
 
 //main function
@@ -87,17 +88,21 @@ const main=async()=>{
 
     if (!await check_win(board))
     {
+        //draw
         if(board.filter((x)=>x==0).length==0){
             for (let x in board){
                 board[x]=player_data["empty"]
             }
         }
+        //nothing
     }
     else{
+        //win
         for (let x in board){
             board[x]=player_data["empty"]
         }
     }
+
     readme_file = readme_file.replace(/<table>[\s\S]*?<\/table>/g, await create_readme(board));
     fs.writeFileSync('README.md', readme_file);
     fs.writeFileSync('value.json',JSON.stringify({"board":board}))
