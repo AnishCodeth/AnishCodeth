@@ -86,7 +86,7 @@ const reset_game = async (board, readme_file) => {
 
 const main = async () => {
   let issue_title = process.env.MOVE_INDEX
-  issue_title=issue_title ? (typeof(issue_title)==String?parseInt(issue_title):issue_title):'reset';
+  issue_title=issue_title ? (typeof(issue_title)==String?parseInt(issue_title):issue_title):2;
   let board_file = JSON.parse(fs.readFileSync('value.json', "utf-8"));
   let readme_file = fs.readFileSync('README.md', "utf-8");
   const board = board_file.board;
