@@ -29,7 +29,7 @@ const which_player = async (file) => {
   return count % 2 === 0 ? 1 : -1;
 };
 
-const create_readme = async (file, win = undefined) => {
+const create_readme = async (file, win) => {
   let html = "<table>";
   
   for (let i = 0; i < 9; i++) {
@@ -43,10 +43,33 @@ const create_readme = async (file, win = undefined) => {
     if ((i + 1) % 3 === 0) html += '</tr>';
   }
   
+
   
-  if (win === 'draw') return html + '<td>Draw</td></table>';
-  if (win === 'nothing') return html+'</table>';
-  return html + `<td>Win by: ${win}</td>`+'</table>'
+  if (win === 'draw') 
+    {html= html + '<td>Draw</td></table>';
+    }
+  else if (win === 'win') {
+    html=html+`<td>winb by:${win}</td></table>`;
+  }
+  else{
+      html=html+'</table>';
+    }
+
+
+    if (win=='human' || win=='robot' || win=='draw'){
+      html+=`📝 **Click on a cell to make a move.** The game updates automatically.
+  
+  ### 🔄 Reset the Game
+  
+  <p align="center">
+    <a href="https://github.com/AnishCodeth/anishcodeth/issues/new?title=reset">
+      <img src="https://img.shields.io/badge/Reset%20Game-FF0000?style=for-the-badge&logo=github&logoColor=white" alt="Reset Button" />
+    </a>
+  </p>
+  
+  ---`
+    }
+  return html;
 };
 
 const empty_board = (board) => {
@@ -55,20 +78,20 @@ const empty_board = (board) => {
 
 const reset_game = async (board, readme_file) => {
   empty_board(board);
-  const readme_content = await create_readme(board);
+  const readme_content = await create_readme(board,'reset');
   readme_file = readme_file.replace(/<table>[\s\S]*?<\/table>/g, readme_content);
   fs.writeFileSync('README.md', readme_file);
   fs.writeFileSync('value.json', JSON.stringify({ "board": board }));
 };
 
 const main = async () => {
-  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) : 'reset';
+  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) : 7;
   let board_file = JSON.parse(fs.readFileSync('value.json', "utf-8"));
   let readme_file = fs.readFileSync('README.md', "utf-8");
   const board = board_file.board;
 
   if (issue_title === "reset") {
-    reset_game(board, readme_file);
+    await reset_game(board, readme_file);
     return;
   }
 

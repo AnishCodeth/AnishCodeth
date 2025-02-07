@@ -83,8 +83,6 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 Click on a cell to play! The board updates automatically.
 
-<<<<<<< HEAD
-
 <table><tr><td>
     <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=0>
     <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
@@ -116,6 +114,14 @@ Click on a cell to play! The board updates automatically.
 =======
 
 📝 **Click on a cell to make a move.** The game updates automatically.
+
+### 🔄 Reset the Game
+
+<p align="center">
+  <a href="https://github.com/AnishCodeth/anishcodeth/issues/new?title=reset">
+    <img src="https://img.shields.io/badge/Reset%20Game-FF0000?style=for-the-badge&logo=github&logoColor=white" alt="Reset Button" />
+  </a>
+</p>
 
 ---
 
