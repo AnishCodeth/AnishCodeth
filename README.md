@@ -127,7 +127,7 @@ Click on a cell to play! The board updates automatically.
   ---
 end
 
-#### when you click above it create a issue so it takes 7-8 sec to change and u need to refresh to see the changes.
+#### when you click above it create a issue.Place value of tile in title and reset for the reset so it takes 7-8 sec to change and u need to refresh to see the changes.
 
 ---
 
