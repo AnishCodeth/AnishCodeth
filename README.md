@@ -83,6 +83,8 @@ A **real-time restaurant ordering system** with order tracking and notifications
 
 Click on a cell to play! The board updates automatically.
 
+<<<<<<< HEAD
+
 <table><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=0><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>a
@@ -102,6 +104,7 @@ Click on a cell to play! The board updates automatically.
     </td><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=8><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td></tr></table>
+=======
 
 📝 **Click on a cell to make a move.** The game updates automatically.
 
