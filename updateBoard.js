@@ -63,12 +63,12 @@ const reset_game = async (board, readme_file) => {
 };
 
 const main = async () => {
-  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) : 0;
+  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) : 'reset';
   let board_file = JSON.parse(fs.readFileSync('value.json', "utf-8"));
   let readme_file = fs.readFileSync('README.md', "utf-8");
   const board = board_file.board;
 
-  if (issue_title === 0) {
+  if (issue_title === "reset") {
     reset_game(board, readme_file);
     return;
   }
