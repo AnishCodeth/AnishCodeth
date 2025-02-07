@@ -76,17 +76,17 @@ else {
 
 //main function
 const main=async()=>{
-    const issue_title=parseInt(process.env.issue_title) || 2
+    const issue_title=parseInt(process.env.ISSUE_TITLE )-1 || 2
     let board_file=JSON.parse(fs.readFileSync('value.json',"utf-8"))
     let readme_file=fs.readFileSync('README.md',"utf-8")
 
     
     const board=board_file.board //1 or -1 or 0 format
     const player=await which_player(board) //1 or -1
-    console.log(player)
     board[issue_title]=player
+    const check_win_result=await check_win(board)
 
-    if (!await check_win(board))
+    if (!check_win_result)
     {
         //draw
         if(board.filter((x)=>x==0).length==0){
