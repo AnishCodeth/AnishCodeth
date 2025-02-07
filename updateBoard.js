@@ -30,7 +30,7 @@ const which_player = async (file) => {
 };
 
 const create_readme = async (file, win) => {
-  let html = "<table>";
+  let html = "start\n<table>";
   
   for (let i = 0; i < 9; i++) {
     if (i % 3 === 0) html += '<tr>';
@@ -48,7 +48,7 @@ const create_readme = async (file, win) => {
   if (win === 'draw') 
     {html= html + '<td>Draw</td></table>';
     }
-  else if (win === 'win') {
+  else if (win === 'human' || win === 'robot') {
     html=html+`<td>winb by:${win}</td></table>`;
   }
   else{
@@ -69,7 +69,7 @@ const create_readme = async (file, win) => {
   
   ---`
     }
-  return html;
+  return html+'\nend';
 };
 
 const empty_board = (board) => {
@@ -79,13 +79,13 @@ const empty_board = (board) => {
 const reset_game = async (board, readme_file) => {
   empty_board(board);
   const readme_content = await create_readme(board,'reset');
-  readme_file = readme_file.replace(/<table>[\s\S]*?<\/table>/g, readme_content);
+  readme_file = readme_file.replace(/start[\s\S]*?end/g, readme_content);
   fs.writeFileSync('README.md', readme_file);
   fs.writeFileSync('value.json', JSON.stringify({ "board": board }));
 };
 
 const main = async () => {
-  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) : 7;
+  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) :2;
   let board_file = JSON.parse(fs.readFileSync('value.json', "utf-8"));
   let readme_file = fs.readFileSync('README.md', "utf-8");
   const board = board_file.board;
@@ -103,15 +103,15 @@ const main = async () => {
 
   if (!check_win_result) {
     if (!Object.values(board).includes(0)) {
-      empty_board(board);
       what_happen = 'draw';
     }
   } else {
     what_happen = player_data[player][0];
   }
+  console.log(what_happen)
 
   const readme_content = await create_readme(board, what_happen);
-  readme_file = readme_file.replace(/<table>[\s\S]*?<\/table>/g, readme_content);
+  readme_file = readme_file.replace(/start[\s\S]*?end/g, readme_content);
   fs.writeFileSync('README.md', readme_file);
   fs.writeFileSync('value.json', JSON.stringify({ "board": board }));
 };
