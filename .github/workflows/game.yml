@@ -16,7 +16,7 @@ jobs:
 
       - name: Run Tic-Tac-Toe Update
         run: |
-          node updateGame.js
+          node updateBoard.js
 
       - name: Commit and Push Changes
         run: |
