@@ -49,7 +49,7 @@ const create_readme = async (file, win) => {
     {html= html + '<td>Draw</td></table>';
     }
   else if (win === 'human' || win === 'robot') {
-    html=html+`</table><td>winb by:${win}</td>`;
+    html=html+`</table>\n<p>winb by:${win}</p>`;
   }
   else{
       html=html+'</table>';
@@ -57,7 +57,7 @@ const create_readme = async (file, win) => {
 
 
     if (win=='human' || win=='robot' || win=='draw'){
-      html+=`📝 **Click on a cell to make a move.** The game updates automatically.
+      html+=`\n📝 **Click on a cell to make a move.** The game updates automatically.
   
   ### 🔄 Reset the Game
   
@@ -85,7 +85,8 @@ const reset_game = async (board, readme_file) => {
 };
 
 const main = async () => {
-  const issue_title = process.env.ISSUE_TITLE ? parseInt(process.env.ISSUE_TITLE) :'reset';
+  let issue_title = process.env.ISSUE_TITLE
+  issue_title=issue_title ? (typeof(process.env.ISSUE_TITLE)==String?parseInt(process.env.ISSUE_TITLE):process.env.ISSUE_TITLE):'reset';
   let board_file = JSON.parse(fs.readFileSync('value.json', "utf-8"));
   let readme_file = fs.readFileSync('README.md', "utf-8");
   const board = board_file.board;
