@@ -92,9 +92,9 @@ Click on a cell to play! The board updates automatically.
     </td></tr><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=3><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>a
-    <a href=https://github.com/anish-codeth><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp height="50px" width="50px"></a>
+    <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=4><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>a
-    <a href=https://github.com/anish-codeth><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp height="50px" width="50px"></a>
+    <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=5><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td></tr><tr><td>a
     <a href=https://github.com/anish-codeth/anish-codeth/issues/new?title=6><img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>a
