@@ -1,34 +1,33 @@
-name: Update Tic-Tac-Toe Board
-
+name: Auto Update Tic-Tac-Toe
 on:
   issues:
     types: [opened]
 
 jobs:
-  update-board:
+  update_board:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run board update script
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-        run: node updateBoard.js
-
-      - name: Commit and push changes
+      - name: Extract Move from Issue Title
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add README.md value.json
-          git commit -m "Update Tic-Tac-Toe board"
+          echo "MOVE_INDEX=$(echo '${{ github.event.issue.title }}' | sed 's/move-//')" >> $GITHUB_ENV
+
+      - name: Run Tic-Tac-Toe Update
+        run: |
+          node updateGame.js $MOVE_INDEX
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Updated Tic-Tac-Toe board with move at $MOVE_INDEX"
           git push
+
+      - name: Close Issue Automatically
+        uses: peter-evans/close-issue@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Your move has been recorded! Refresh README to see updates."
