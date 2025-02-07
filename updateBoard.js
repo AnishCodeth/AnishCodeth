@@ -43,11 +43,10 @@ const create_readme = async (file, win = undefined) => {
     if ((i + 1) % 3 === 0) html += '</tr>';
   }
   
-  html += '</table>';
   
-  if (win === 'draw') return html + '<p>Draw</p>';
-  if (win === 'nothing') return html;
-  return html + `<p>Win by: ${win}</p>`;
+  if (win === 'draw') return html + '<td>Draw</td></table>';
+  if (win === 'nothing') return html+'</table>';
+  return html + `<td>Win by: ${win}</td>`+'</table>'
 };
 
 const empty_board = (board) => {
@@ -85,7 +84,6 @@ const main = async () => {
       what_happen = 'draw';
     }
   } else {
-    empty_board(board);
     what_happen = player_data[player][0];
   }
 
