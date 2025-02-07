@@ -103,8 +103,8 @@ Click on a cell to play! The board updates automatically.
     <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=5>
     <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td></tr><tr><td>
-    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=6>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
+    <a href=https://github.com/anishcodeth>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp height="50px" width="50px"></a>
     </td><td>
     <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=7>
     <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
