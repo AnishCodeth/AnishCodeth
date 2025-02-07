@@ -36,7 +36,7 @@ const check_win=async(values)=>{
 
 //which player is playing
 const which_player=async(file)=>{
-    let sum=0
+let sum=0
 for (let x in file){
 sum+=Math.abs(file[x])
 }
@@ -76,7 +76,7 @@ else {
 
 //main function
 const main=async()=>{
-    const issue_title=parseInt(process.env.ISSUE_TITLE )-1 || 2
+    const issue_title=parseInt(process.env.ISSUE_TITLE )-1 || 4
     let board_file=JSON.parse(fs.readFileSync('value.json',"utf-8"))
     let readme_file=fs.readFileSync('README.md',"utf-8")
 
