@@ -85,20 +85,20 @@ Click on a cell to play! The board updates automatically.
 
 #### start
 <table><tr><td>
-    <a href=https://github.com/anishcodeth>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp height="50px" width="50px"></a>
+    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=0>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>
-    <a href=https://github.com/anishcodeth>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp height="50px" width="50px"></a>
+    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=1>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>
-    <a href=https://github.com/anishcodeth>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/human.webp height="50px" width="50px"></a>
+    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=2>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td></tr><tr><td>
-    <a href=https://github.com/anishcodeth>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp height="50px" width="50px"></a>
+    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=3>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>
-    <a href=https://github.com/anishcodeth>
-    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/robo.webp height="50px" width="50px"></a>
+    <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=4>
+    <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
     </td><td>
     <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=5>
     <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
@@ -111,17 +111,7 @@ Click on a cell to play! The board updates automatically.
     </td><td>
     <a href=https://github.com/AnishCodeth/anishcodeth/issues/new?title=8>
     <img src=https://github.com/AnishCodeth/AnishCodeth/blob/main/click.webp height="50px" width="50px"></a>
-    </td></tr><td>winb by:human</td></table>📝 **Click on a cell to make a move.** The game updates automatically.
-  
-  ### 🔄 Reset the Game
-  
-  <p align="center">
-    <a href="https://github.com/AnishCodeth/anishcodeth/issues/new?title=reset">
-      <img src="https://img.shields.io/badge/Reset%20Game-FF0000?style=for-the-badge&logo=github&logoColor=white" alt="Reset Button" />
-    </a>
-  </p>
-  
-  ---
+    </td></tr></table>
 end
 
 ---
