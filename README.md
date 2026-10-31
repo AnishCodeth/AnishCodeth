@@ -56,43 +56,21 @@ anish = {
 
 ### 🔧 Backend
 
-**I design for failure first.**
-- **Money paths that can't double-charge.** Purchase validation across Google Play and the App Store is idempotent, so retries, webhooks and duplicate events are safe.
-- **Slow work stays off the request path.** Notifications and heavy jobs run through queues and workers, driven by change-data-capture events instead of tightly coupled calls.
-- **Multi-tenant by design.** One platform serves many products, with tenant isolation, leaderboards, battle-pass logic and admin tooling built in.
-
-**I build for load, then prove it.**
-- Real-time systems over WebSockets and MQTT, from live multiplayer state to payment alerts pushed to physical devices.
-- Load-tested with k6 against realistic concurrency, so capacity is measured instead of guessed.
-
-**I treat the boundary as a product.**
-- A centralized identity gateway (OAuth2 / OIDC) so every service authenticates the same way.
-- Webhook signature verification at every external entry point.
-- OpenAPI contracts and typed SDKs, so other teams integrate without reading my code.
-
-**I keep it maintainable.**
-- Dependency injection and the repository pattern, so business logic can be tested without infrastructure.
-- Integration tests against real databases and queues with Testcontainers, not mocks that drift from production.
+- **Idempotent payment flows.** Google Play and App Store purchase validation that stays correct under retries and duplicate events.
+- **Async by default.** Queue and worker pipelines (BullMQ, Redis) plus a change-data-capture notification pipeline keep slow work off the request path.
+- **Real-time at scale.** Multi-tenant gaming microservices with live leaderboards, and an IoT service that turns bank webhooks into MQTT alerts on merchant devices.
+- **Identity and contracts.** An OAuth2 / OIDC gateway for every service, plus OpenAPI specs and a typed TypeScript SDK for other teams.
+- **Proven, not assumed.** k6 load testing, and integration tests on real infrastructure with Testcontainers.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 AI
 
-**I start from the decision the model supports.**
-- **Recommendation systems** that predict what a customer is likely to buy, built around a business outcome rather than a leaderboard metric.
-- **Agentic workflows** with LangGraph, including a Text-to-SQL engine, where the graph structure controls how the agent reasons, retries and recovers.
-
-**I make unstructured data usable.**
-- **Embeddings plus HDBSCAN clustering** to organize a knowledge base without hand-labeled categories.
-- **Handwritten Nepali OCR** with a CNN-LSTM trained with CTC loss, with preprocessing that includes adaptive binarization and header-line detection.
-
-**I care about what happens after training.**
-- Models exported to ONNX for portable, lightweight inference.
-- Served behind typed APIs, so the AI part is a dependable service that the rest of the system can call.
-
-**I know the tools underneath.**
-- PyTorch and TensorFlow for model building, Hugging Face for transformer-based NLP, LangChain and LangGraph for orchestration.
+- **Recommendation system** that predicts what customers are likely to buy.
+- **Agentic Text-to-SQL** workflows built with LangGraph.
+- **Knowledge curation** with embeddings and HDBSCAN clustering, exported to ONNX for inference.
+- **Nepali handwriting OCR** using a CNN-LSTM with CTC loss, with adaptive binarization and header-line detection in preprocessing.
 
 </td>
 </tr>
