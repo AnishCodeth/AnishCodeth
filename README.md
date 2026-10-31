@@ -48,26 +48,6 @@ anish = {
 
 ---
 
-## 🏗️ Where backend meets AI
-
-How I think about a production AI system, from request to inference:
-
-```mermaid
-flowchart LR
-    C([Client]) --> G[API Gateway]
-    G --> A{{Auth: OAuth2 / OIDC}}
-    A --> S[Services: NestJS / FastAPI]
-    S --> Q[(Redis + BullMQ)]
-    Q --> W[Workers]
-    W --> M[[ML Inference: ONNX / PyTorch]]
-    M --> V[(Embeddings + Vector Search)]
-    S --> P[(PostgreSQL)]
-    W --> P
-    S -. real-time .-> WS((WebSockets / MQTT))
-```
-
----
-
 ## ⚙️ Two halves, one engineer
 
 <table>
@@ -76,25 +56,43 @@ flowchart LR
 
 ### 🔧 Backend
 
-- High-concurrency, multi-tenant services
-- OAuth2 / OIDC auth gateways, JWT hardening
-- Idempotent payment and in-app purchase validation
-- Async pipelines with queues and workers
-- Real-time systems over WebSockets and MQTT
-- OpenAPI specs, typed SDKs, load testing with k6
-- Unit, integration and E2E testing with Jest and Testcontainers
+**I design for failure first.**
+- **Money paths that can't double-charge.** Purchase validation across Google Play and the App Store is idempotent, so retries, webhooks and duplicate events are safe.
+- **Slow work stays off the request path.** Notifications and heavy jobs run through queues and workers, driven by change-data-capture events instead of tightly coupled calls.
+- **Multi-tenant by design.** One platform serves many products, with tenant isolation, leaderboards, battle-pass logic and admin tooling built in.
+
+**I build for load, then prove it.**
+- Real-time systems over WebSockets and MQTT, from live multiplayer state to payment alerts pushed to physical devices.
+- Load-tested with k6 against realistic concurrency, so capacity is measured instead of guessed.
+
+**I treat the boundary as a product.**
+- A centralized identity gateway (OAuth2 / OIDC) so every service authenticates the same way.
+- Webhook signature verification at every external entry point.
+- OpenAPI contracts and typed SDKs, so other teams integrate without reading my code.
+
+**I keep it maintainable.**
+- Dependency injection and the repository pattern, so business logic can be tested without infrastructure.
+- Integration tests against real databases and queues with Testcontainers, not mocks that drift from production.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 AI
 
-- Recommendation systems for customer purchase prediction
-- Agentic workflows and Text-to-SQL with LangGraph
-- Embeddings plus clustering for knowledge curation
-- OCR for Nepali handwriting (CNN-LSTM + CTC)
-- Fine-tuning transformer models for NLP
-- Model export and serving with ONNX
+**I start from the decision the model supports.**
+- **Recommendation systems** that predict what a customer is likely to buy, built around a business outcome rather than a leaderboard metric.
+- **Agentic workflows** with LangGraph, including a Text-to-SQL engine, where the graph structure controls how the agent reasons, retries and recovers.
+
+**I make unstructured data usable.**
+- **Embeddings plus HDBSCAN clustering** to organize a knowledge base without hand-labeled categories.
+- **Handwritten Nepali OCR** with a CNN-LSTM trained with CTC loss, with preprocessing that includes adaptive binarization and header-line detection.
+
+**I care about what happens after training.**
+- Models exported to ONNX for portable, lightweight inference.
+- Served behind typed APIs, so the AI part is a dependable service that the rest of the system can call.
+
+**I know the tools underneath.**
+- PyTorch and TensorFlow for model building, Hugging Face for transformer-based NLP, LangChain and LangGraph for orchestration.
 
 </td>
 </tr>
@@ -160,8 +158,6 @@ Organizes documents with embeddings and HDBSCAN clustering, served via ONNX.<br/
 </td>
 </tr>
 </table>
-
-<sub>Add a repo link under the last three once those repos are public.</sub>
 
 ---
 
